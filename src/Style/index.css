@@ -1,0 +1,50 @@
+
+.indexModule{
+    padding-top:2.2rem;
+
+}
+.tabList{
+    border-top: 1px solid #b5b5b5;
+    width: 100%;
+    height: 3rem;
+    background: #ffffff;
+    position:fixed;
+    bottom:0;
+    align-items: center
+}
+.box{
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+.boxcolumn{
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.tabList a {
+    height:100%;
+    -webkit-box-flex: 1.0;
+    flex:1.0;
+    -moz-box-flex:1.0;
+    text-align:center;
+    font-size: 0.8rem;
+    border-right:1px solid #b5b5b5;
+    -webkit-tap-highlight-color:#ebebeb;
+
+}
+.tabList a div{
+    margin-top: 0.6rem;
+    height: 1.8rem;
+    width: 1.4rem;
+    background: url(../images/icon_add@3x.png) no-repeat left center;
+    background-size: 100% 100%;
+}
+.contant{
+    border-top: 1px solid #b5b5b5;
+    width: 100%;
+    top: 2.2rem;
+    background: #ffffff;
+    position:fixed;
+    bottom: 3rem;
+}
